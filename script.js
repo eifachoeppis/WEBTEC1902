@@ -52,7 +52,7 @@
 
         const actionText = document.getElementById("actionText");
         actionText.addEventListener("click", function (e) {
-            const imageLink = "content/Skierffe.jpg";
+            const imageLink = "content/Skierfe.jpg";
             fetch(imageLink)
                 .then(function (response) {
                     return response.blob();
