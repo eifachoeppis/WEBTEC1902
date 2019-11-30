@@ -60,6 +60,7 @@ nav a{
     justify-content: center;
     align-items: center;
     color: #333333;
+    padding: 1em 0;
 }
 
 #asyncImage img{
