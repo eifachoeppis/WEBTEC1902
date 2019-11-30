@@ -62,6 +62,11 @@ nav a{
     color: #333333;
 }
 
+#asyncImage img{
+    height: 100%;
+    width: auto;
+}
+
 #actionText{
     cursor: pointer;
 }
