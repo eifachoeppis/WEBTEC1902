@@ -56,13 +56,15 @@ nav a{
 #asyncImage{
     background-color: #ecf0f5;
     height: 400px;
+    color: #333333;
+    text-align: center;
 }
 
 #imageWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #333333;
+    height: 100%;
     padding: 1em 0;
 }
 
