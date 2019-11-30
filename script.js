@@ -7,12 +7,12 @@
         const ball = document.getElementById("ball");
         const context = ball.getContext("2d");
 
-        const timeout = 5;
-        const radius = 10;
+        const timeout = 10;
+        const radius = 30;
         let x = radius;
         let y = radius;
-        let deltaX = 2;
-        let deltaY = 2;
+        let deltaX = 20;
+        let deltaY = 20;
         let interval = start();
         let isRunning = true;
 
