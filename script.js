@@ -55,7 +55,6 @@
             const imageLink = "content/Skierffe.jpg";
             fetch(imageLink)
                 .then(function (response) {
-                    console.log(response.blob());
                     return response.blob();
                 })
                 .then(function (blob) {
