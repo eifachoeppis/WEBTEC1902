@@ -56,19 +56,14 @@ nav a{
 #asyncImage{
     background-color: #ecf0f5;
     height: 400px;
-    color: #333333;
-    text-align: center;
-}
-
-#imageWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    color: #333333;
     padding: 1em 0;
 }
 
-#imageWrapper img{
+#asyncImage img{
     max-height: 100%;
     max-width: 100%;
     height: auto;
@@ -80,7 +75,6 @@ nav a{
 }
 
 footer{
-    display: flex;
     text-align: center;
     padding: 1em 0;
     background-color: #222d32;
