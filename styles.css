@@ -1,5 +1,79 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+}
+
+section{
+    margin-top: 2em;
+}
+
+nav{
+    background-color: #0969A3;
+    color: azure;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+
+.nav-container{
+    min-height: 80px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 970px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    background-color: #0969A3;
+    color: azure;
+}
+
+#ballSection{
+    text-align: center;
+}
+
+#ball {
+    height: 80vh;
+    max-width: 970px;
+    margin: 15px auto;
+    border: 1px solid #2c3e50;
+    background-color: #45464c;
+}
+
+#asyncImage{
+    background-color: #ecf0f5;
+    height: 300px;
+}
+
+footer{
+    color: azure;
+    background-color: #222d32;
+}
+
+@media (max-width: 600px) {
+    .nav-container{
+        align-items: start;
+        flex-direction: column;
+    }
+    .nav-container li{
+        padding: 16px 8px;
+    }
 }
