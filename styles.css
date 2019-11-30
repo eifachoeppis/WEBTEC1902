@@ -80,6 +80,7 @@ nav a{
 }
 
 footer{
+    display: flex;
     text-align: center;
     padding: 1em 0;
     background-color: #222d32;
